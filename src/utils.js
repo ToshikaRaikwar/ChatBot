@@ -9,6 +9,9 @@ export const analyze = (text) => {
       return 'JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2023, 98.7% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries.';
       else if (lowerText.includes('what is python?'))
       return 'Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation via the off-side rule. Python is dynamically typed and garbage-collected.'
+    else if (lowerText.includes('ok')|| lowerText.includes('thanks'))
+      return 'I am glad to help you!';
+    
     return "I'm sorry, but I don't have the answer to that question. Can you please ask something else?";
   }
   
